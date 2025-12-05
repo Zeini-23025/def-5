@@ -1,0 +1,27 @@
+{
+  "name": "gamification-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+     "seed:mongo": "node src/utils/seedMongo.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed:admin": "node src/utils/seedAdmin.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^8.0.0",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0",
+     "dotenv": "^17.2.3",
+    "mongoose": "^9.0.0"
+  }
+}
